@@ -1,0 +1,6 @@
+{
+  "name": "FocalFit - Simulador Multi-Formato",
+  "description": "Simulador de proporções e enquadramento para designers validarem a exibição de imagens e áreas de interesse em múltiplos formatos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,58 @@
+import { FormatSpec } from '../types';
+
+export const TARGET_FORMATS: FormatSpec[] = [
+  {
+    id: '1920x1080',
+    name: '1920 × 1080',
+    description: 'Landscape / Full HD / Banner Desktop',
+    width: 1920,
+    height: 1080,
+    aspectRatio: '16:9',
+    category: 'Landscape',
+  },
+  {
+    id: '1080x1080',
+    name: '1080 × 1080',
+    description: 'Quadrado / Feed Social / Instagram & LinkedIn',
+    width: 1080,
+    height: 1080,
+    aspectRatio: '1:1',
+    category: 'Square',
+  },
+  {
+    id: '300x600',
+    name: '300 × 600',
+    description: 'Skyscraper Largo / Metade de Página (Half Page)',
+    width: 300,
+    height: 600,
+    aspectRatio: '1:2',
+    category: 'Vertical',
+  },
+  {
+    id: '750x90',
+    name: '750 × 90',
+    description: 'Leaderboard Mobile / Super Banner',
+    width: 750,
+    height: 90,
+    aspectRatio: '25:3',
+    category: 'Banner',
+  },
+  {
+    id: '320x100',
+    name: '320 × 100',
+    description: 'Large Mobile Banner / Smartphone Web',
+    width: 320,
+    height: 100,
+    aspectRatio: '16:5',
+    category: 'Mobile',
+  },
+  {
+    id: '970x250',
+    name: '970 × 250',
+    description: 'Billboard IAB / Topo de Portal Premium',
+    width: 970,
+    height: 250,
+    aspectRatio: '97:25',
+    category: 'Banner',
+  },
+];
